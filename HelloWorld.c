@@ -1,9 +1,6 @@
 #include <stdio.h>
 int main(){
     char str[]="HelloWorld";
-    for (int i = 0; i < 10; i++)
-    {
-        printf(str);
-    }
+    printf("%s\n",str);
     return 0;
 }
